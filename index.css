@@ -1,0 +1,44 @@
+ .photographer {
+     background-image: url(image/pexels-andre-furtado-1264210.jpg);
+     background-size: cover;
+     height: 510px;
+     background-repeat: no-repeat;
+     background-position: center;
+     /* background-clip: content-box; */
+ }
+ .navigation {
+     text-align: center;
+     background-color: black;
+ }
+ .navigation a {
+     text-decoration: none;
+     font-size: medium;
+     margin: 15px;
+     font-family: sans-serif;
+     font-style: italic;
+     color: white;
+ }
+ .navigation a:hover {
+     color: red;
+     background-color: aqua;
+     border-radius: 10px;
+ }
+ .text {
+     text-align: center;
+     position: relative;
+     top: 50%;
+     left: 0%;
+     color: white;
+ }
+ .text button {
+     color: white;
+     background-color: black;
+     text-transform: uppercase;
+     font-style: italic;
+     border-radius: 15px;
+     border-color: red;
+ }
+ .text button:hover {
+     color: red;
+     background-color: aqua;
+ }
